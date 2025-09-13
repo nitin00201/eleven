@@ -60,9 +60,9 @@ const [selected, setSelected] = useState({
              <Button className={cn('px-2 py-2 rounded-lg font-bold cursor-pointer text-sm')} variant={'outline'}><Image src={'/elevenreader.png'} width={18} height={18} alt='elevenreader'/>ELEVENREADER</Button> 
         </div>
           <div className="w-full flex justify-center relative">
-<div className="absolute bottom-[-12]  h-[52px] rounded-b-2xl bg-[linear-gradient(to_right,#f3f4f6,#a5f3fc,#d8b4fe,#fdba74)] z-10 w-5xl mx-auto"></div>
+<div className="absolute bottom-[-8]  h-[44px] rounded-b-2xl bg-[linear-gradient(to_right,#f3f4f6,#F1F2F4,#D7DBE0,#D7DBE0,#D7DBE0,#D7DBE0,#D7DBE0,#D7DBE0,#D7DBE0,#a5f3fc,#d8b4fe,#fdba74)] z-10 w-5xl mx-auto"></div>
 
-      <div className="relative w-full max-w-5xl rounded-2xl  border-gray-150 bg-white shadow-md border-b-36  border-4 ">
+      <div className="relative w-full max-w-5xl rounded-2xl  border-[#f3f4f6] bg-white shadow-md border-b-36  border-4 ">
         <div className="p-4">
           <p className="text-gray-800 text-md font-semibold text-left px-4 py-2 pb-32">
             In the ancient land of Eldoria, where skies shimmered and forests, whispered secrets to the wind, lived a dragon named
