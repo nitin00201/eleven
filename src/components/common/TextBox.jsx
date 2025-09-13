@@ -60,7 +60,7 @@ const [selected, setSelected] = useState({
              <Button className={cn('px-2 py-2 rounded-lg font-bold cursor-pointer text-sm')} variant={'outline'}><Image src={'/elevenreader.png'} width={18} height={18} alt='elevenreader'/>ELEVENREADER</Button> 
         </div>
           <div className="w-full flex justify-center relative">
-<div className="absolute bottom-[-12]  h-[52px] rounded-b-2xl bg-[linear-gradient(to_right,#f3f4f6,#ffffff,#a5f3fc,#d8b4fe,#fdba74)] z-10 w-5xl mx-auto"></div>
+<div className="absolute bottom-[-12]  h-[52px] rounded-b-2xl bg-[linear-gradient(to_right,#f3f4f6,#a5f3fc,#d8b4fe,#fdba74)] z-10 w-5xl mx-auto"></div>
 
       <div className="relative w-full max-w-5xl rounded-2xl  border-gray-150 bg-white shadow-md border-b-36  border-4 ">
         <div className="p-4">
