@@ -2,11 +2,12 @@ import React from 'react'
 import { Button } from '../ui/button'
 import { cn } from '@/lib/utils'
 import { ChevronDown } from 'lucide-react'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
     <div className='w-full flex items-center justify-around px-4 py-5'>
-        <div className='font-bold text-xl'>11ElevenLabs</div>
+        <Image src={'/icon.png'} alt='logo' width={100} height={40} className='cursor-pointer'/>
         <div className='flex items-center gap-4 text-xs'>
             <div className='flex items-end cursor-pointer justify-center'>
                 <span className='font-semibold text-sm'>Creative Platform</span>
